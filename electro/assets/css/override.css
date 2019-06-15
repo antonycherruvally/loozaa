@@ -1,0 +1,224 @@
+/**
+ *	Remove footer
+ *	@see http://loozaa.com/demo/vendor-dashboard/
+ */
+ .page-id-6138 #colophon .desktop-footer .footer-widgets{
+	 display:none;
+ 	
+ }
+ .page-id-6141 #colophon .desktop-footer .footer-widgets{
+	 display:none;
+ }
+ .page-id-6144 #colophon .desktop-footer .footer-widgets{
+	 display:none;
+ }
+ .post-type-archive-product #colophon .desktop-footer .footer-widgets{
+	 display:none;
+ }
+ .post-type-archive-product #content .container .site-content-inner .content-area .site-main .vc_row{
+	  display:none;
+ }
+ .post-type-archive-product #content .container .site-content-inner .sidebar{
+	  display:none;
+ }
+ .post-type-archive-product #content .container .site-content-inner .content-area .site-main .shop-control-bar{
+	 width:140% !important;
+ }
+ .post-type-archive-product #content .container .site-content-inner .content-area #adbanner{
+	  display:none;
+ }
+ .mobile-header-v2-inner .header-logo{
+ 	    margin-left: -92px;
+    margin-right: 89px;
+ }
+ .mobile-header-v1 .site-search .widget.widget_product_search form:after, .mobile-header-v1 .site-search .widget.widget_search form:after, .mobile-header-v2 .site-search .widget.widget_product_search form:after, .mobile-header-v2 .site-search .widget.widget_search form:after{
+ 	top: 6px;
+ }
+ .mobile-header-v2 .site-search .widget.widget_product_search form input.search-field{
+ 	    font-size: 13px;
+ 	    height: 34px;
+ }
+ .ladies_icon, .men_icon, .abaya_icon, .perfume_icon, .gifts_icon, .homeaces_icon{
+ 	background: white;
+    padding: 0px 16px 19px 12px;
+    width: 28.3%;
+    margin: 9.3px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 4px 3px 9px 0 rgba(92, 89, 78, 0.24);
+ }
+ .icon_head{
+ 	font-size: 14px;
+    margin-left: 13px;
+ }
+ .icon_head_oth {
+    font-size: 7px;
+    margin-left: -9px;
+    font-weight: 700;
+}
+ .home_icon,.home_icon2{
+ 	display: none;
+ }
+ .icon_head1 {
+    font-size: 14px;
+   margin-left: 31px;
+    /* margin-top: 116px; */
+    color: #ff81cc;
+    font-weight: 600;
+}
+.icon_head_ladies {
+    font-size: 14px;
+    /* margin-left: -34px; */
+    margin-top: -25px;
+    text-align: center;
+    /* margin-left: -34px; */
+    margin-right: -16px;
+    font-weight: 600;
+    color: #ff81cc;
+    padding-top: 24px;
+}
+.icon_head_gift {
+    font-size: 16px;
+    margin-left: 39px;
+    /* margin-top: -9px; */
+    font-weight: 600;
+    padding-top: 10px;
+    color: #ff81cc;
+}
+.icon_head2 {
+    font-size: 14px;
+    text-align: -webkit-center;
+    font-weight: 600;
+    color: #ff81cc;
+    width: 111%;
+    padding-top: 24px;
+}
+.icon_head_oud {
+    font-size: 14px;
+    margin-left: 35px;
+    font-weight: 600;
+    color: #ff81cc;
+}
+ .perf_icon_img {
+    width: 66%;
+    margin-top: -19px;
+    z-index: 1000;
+    margin-left: 18px;
+    /*filter: drop-shadow(2px 2px 4px #222);*/
+}
+.gift_icon_img {
+    width: 120%;
+    margin-top: 15px;
+    z-index: 1000;
+    margin-left: 9px;
+}
+ .ladies_icon_img{
+ 	width: 89%;
+    margin-top: -3px;
+    z-index: 1000;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.53));
+ }
+ .cap_icon_img{
+     width: 170%;
+    margin-top: 8px;
+    z-index: 1000;
+    margin-left: -22px;
+}
+.oud_icon_img{
+    width: 123%;
+    /* margin-top: -3px; */
+    z-index: 1000;
+    margin-left: 8px;
+    margin-top: 25px;
+}
+ .abaya_icon_img{
+ 	width: 114%;
+    margin-top: -23px;
+    margin-left: -9px;
+    
+    
+ }
+ .home_icon_img {
+    width: 110%;
+    z-index: 1000;
+    margin-left: 15px;
+    margin-top: 13px;
+}
+ .icon_head_home {
+     
+    font-size: 14px;
+       text-align: -webkit-center;
+    font-weight: 700;
+    margin-top: 5px;
+    color: #ff81cc;
+    width: 111%;
+
+}
+
+ @media (max-width: 767px){
+
+    .mobheadnavi{
+     margin-top: -37px;
+     display: block !important;
+    }
+
+    .mobhead_navul{
+            display: inline-flex;
+    list-style: none;
+    color: white;
+    font-weight: 600;
+    }
+    .mobheadnavi .mobhead_navul li{
+        margin: 10px;
+    } 
+    .mobheadnavi .mobhead_navul a{
+        color: white;
+    } 
+.home_icon ,.home_icon2{
+    opacity: 1 !important;
+}
+ .home_icon{
+    display: -webkit-box !important;
+    margin-top: -21px;
+    margin-bottom: 12px;
+    padding-top: 10px;
+    /*background-color: white;*/
+ }
+ .home_icon2{
+    display: -webkit-box !important;
+    margin-top: -21px;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    /*background-color: white;*/
+ }
+ .homes_icon_main{
+    background-color: white;
+ }
+}
+.show-nav .nav .nav-item.active .nav-link,.product-categories-list-with-header.v2 header .caption .section-title, .product-categories-list-with-header.v2 header .caption .section-title
+
+{
+    background-color: #ff81cc !important;
+    border-color: #ff81cc !important;
+}
+.section-title::after
+{
+    border-top-color: #ff81cc !important;
+}
+.deal-products-with-featured ul.products > li.product.product-featured .savings
+{
+    background-color: #ff81cc !important;
+}
+li.product .product-short-description{
+    margin-bottom: 1px; 
+    height: 2em;
+}
+.product-rating{
+    display: none;
+}
+.product-sku{
+    display: none;
+}
+.loop-product-categories{
+    display: none !important;
+}
